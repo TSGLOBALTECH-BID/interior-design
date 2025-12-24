@@ -56,7 +56,7 @@ export function Hero() {
   }
 
   return (
-    <section ref={containerRef} className="relative min-h-screen flex items-center overflow-hidden -mt-16 md:-mt-20 pt-16 md:pt-20">
+    <section ref={containerRef} className="relative min-h-[70vh] md:min-h-screen flex items-center overflow-hidden -mt-16 md:-mt-20 pt-16 md:pt-20">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/70 to-background/60 dark:from-background/95 dark:via-background/85 dark:to-background/70" />
